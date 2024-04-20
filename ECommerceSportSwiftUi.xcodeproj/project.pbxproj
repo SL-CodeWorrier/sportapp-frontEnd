@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		83367A952BC7998A00E9A614 /* ECommerceSportSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83367A942BC7998A00E9A614 /* ECommerceSportSwiftUiApp.swift */; };
-		83367A972BC7998A00E9A614 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83367A962BC7998A00E9A614 /* ContentView.swift */; };
 		83367A992BC7998C00E9A614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83367A982BC7998C00E9A614 /* Assets.xcassets */; };
 		83367A9C2BC7998C00E9A614 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83367A9B2BC7998C00E9A614 /* Preview Assets.xcassets */; };
 		83367AA62BC7998C00E9A614 /* ECommerceSportSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83367AA52BC7998C00E9A614 /* ECommerceSportSwiftUiTests.swift */; };
 		83367AB02BC7998C00E9A614 /* ECommerceSportSwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83367AAF2BC7998C00E9A614 /* ECommerceSportSwiftUiUITests.swift */; };
 		83367AB22BC7998C00E9A614 /* ECommerceSportSwiftUiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83367AB12BC7998C00E9A614 /* ECommerceSportSwiftUiUITestsLaunchTests.swift */; };
+		83367AC32BC79F4E00E9A614 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83367ABF2BC79F4E00E9A614 /* Gilroy-SemiBold.ttf */; };
+		83367AC42BC79F4E00E9A614 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83367AC02BC79F4E00E9A614 /* Gilroy-Bold.ttf */; };
+		83367AC52BC79F4E00E9A614 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83367AC12BC79F4E00E9A614 /* Gilroy-Regular.ttf */; };
+		83367AC62BC79F4E00E9A614 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83367AC22BC79F4E00E9A614 /* Gilroy-Medium.ttf */; };
+		83367ACE2BC7A4B300E9A614 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83367ACD2BC7A4B300E9A614 /* WelcomeView.swift */; };
+		83367AD02BC7A64400E9A614 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83367ACF2BC7A64400E9A614 /* Launch Screen.storyboard */; };
+		83367AD22BC7AD4D00E9A614 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83367AD12BC7AD4D00E9A614 /* UIExtension.swift */; };
+		8358A8B62BD3ECA7004BA1EC /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 8358A8B52BD3ECA7004BA1EC /* CountryPicker */; };
+		8358A8B82BD3F199004BA1EC /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8358A8B72BD3F199004BA1EC /* CountryPickerUI.swift */; };
+		83650EE72BCE7FEE00844961 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83650EE62BCE7FEE00844961 /* RoundButton.swift */; };
+		83650EE92BCE831100844961 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83650EE82BCE831100844961 /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		83367A912BC7998A00E9A614 /* ECommerceSportSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECommerceSportSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83367A942BC7998A00E9A614 /* ECommerceSportSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECommerceSportSwiftUiApp.swift; sourceTree = "<group>"; };
-		83367A962BC7998A00E9A614 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83367A982BC7998C00E9A614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83367A9B2BC7998C00E9A614 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83367AA12BC7998C00E9A614 /* ECommerceSportSwiftUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECommerceSportSwiftUiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,17 @@
 		83367AAB2BC7998C00E9A614 /* ECommerceSportSwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECommerceSportSwiftUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83367AAF2BC7998C00E9A614 /* ECommerceSportSwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECommerceSportSwiftUiUITests.swift; sourceTree = "<group>"; };
 		83367AB12BC7998C00E9A614 /* ECommerceSportSwiftUiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECommerceSportSwiftUiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83367ABF2BC79F4E00E9A614 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		83367AC02BC79F4E00E9A614 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		83367AC12BC79F4E00E9A614 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		83367AC22BC79F4E00E9A614 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		83367AC72BC79FF000E9A614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		83367ACD2BC7A4B300E9A614 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		83367ACF2BC7A64400E9A614 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		83367AD12BC7AD4D00E9A614 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		8358A8B72BD3F199004BA1EC /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
+		83650EE62BCE7FEE00844961 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		83650EE82BCE831100844961 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8358A8B62BD3ECA7004BA1EC /* CountryPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +115,16 @@
 		83367A932BC7998A00E9A614 /* ECommerceSportSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				83367ACB2BC7A11D00E9A614 /* UiCommon */,
+				83367ACA2BC7A10400E9A614 /* ViewModel */,
+				83367AC92BC7A0F700E9A614 /* Model */,
+				83367AC82BC7A0CB00E9A614 /* View */,
+				83367AC72BC79FF000E9A614 /* Info.plist */,
+				83367ABE2BC79DD000E9A614 /* Font */,
 				83367A942BC7998A00E9A614 /* ECommerceSportSwiftUiApp.swift */,
-				83367A962BC7998A00E9A614 /* ContentView.swift */,
 				83367A982BC7998C00E9A614 /* Assets.xcassets */,
 				83367A9A2BC7998C00E9A614 /* Preview Content */,
+				83367ACF2BC7A64400E9A614 /* Launch Screen.storyboard */,
 			);
 			path = ECommerceSportSwiftUi;
 			sourceTree = "<group>";
@@ -127,6 +154,58 @@
 			path = ECommerceSportSwiftUiUITests;
 			sourceTree = "<group>";
 		};
+		83367ABE2BC79DD000E9A614 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				83367AC02BC79F4E00E9A614 /* Gilroy-Bold.ttf */,
+				83367AC22BC79F4E00E9A614 /* Gilroy-Medium.ttf */,
+				83367AC12BC79F4E00E9A614 /* Gilroy-Regular.ttf */,
+				83367ABF2BC79F4E00E9A614 /* Gilroy-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		83367AC82BC7A0CB00E9A614 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83367ACC2BC7A49600E9A614 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83367AC92BC7A0F700E9A614 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83367ACA2BC7A10400E9A614 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		83367ACB2BC7A11D00E9A614 /* UiCommon */ = {
+			isa = PBXGroup;
+			children = (
+				83367AD12BC7AD4D00E9A614 /* UIExtension.swift */,
+				83650EE62BCE7FEE00844961 /* RoundButton.swift */,
+				8358A8B72BD3F199004BA1EC /* CountryPickerUI.swift */,
+			);
+			path = UiCommon;
+			sourceTree = "<group>";
+		};
+		83367ACC2BC7A49600E9A614 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				83367ACD2BC7A4B300E9A614 /* WelcomeView.swift */,
+				83650EE82BCE831100844961 /* SignInView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +222,9 @@
 			dependencies = (
 			);
 			name = ECommerceSportSwiftUi;
+			packageProductDependencies = (
+				8358A8B52BD3ECA7004BA1EC /* CountryPicker */,
+			);
 			productName = ECommerceSportSwiftUi;
 			productReference = 83367A912BC7998A00E9A614 /* ECommerceSportSwiftUi.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +297,9 @@
 				Base,
 			);
 			mainGroup = 83367A882BC7998A00E9A614;
+			packageReferences = (
+				8358A8B42BD3ECA7004BA1EC /* XCRemoteSwiftPackageReference "CountryPicker" */,
+			);
 			productRefGroup = 83367A922BC7998A00E9A614 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +316,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83367AC52BC79F4E00E9A614 /* Gilroy-Regular.ttf in Resources */,
+				83367AC62BC79F4E00E9A614 /* Gilroy-Medium.ttf in Resources */,
 				83367A9C2BC7998C00E9A614 /* Preview Assets.xcassets in Resources */,
+				83367AC32BC79F4E00E9A614 /* Gilroy-SemiBold.ttf in Resources */,
 				83367A992BC7998C00E9A614 /* Assets.xcassets in Resources */,
+				83367AC42BC79F4E00E9A614 /* Gilroy-Bold.ttf in Resources */,
+				83367AD02BC7A64400E9A614 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +347,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83367A972BC7998A00E9A614 /* ContentView.swift in Sources */,
+				8358A8B82BD3F199004BA1EC /* CountryPickerUI.swift in Sources */,
+				83650EE72BCE7FEE00844961 /* RoundButton.swift in Sources */,
 				83367A952BC7998A00E9A614 /* ECommerceSportSwiftUiApp.swift in Sources */,
+				83367AD22BC7AD4D00E9A614 /* UIExtension.swift in Sources */,
+				83367ACE2BC7A4B300E9A614 /* WelcomeView.swift in Sources */,
+				83650EE92BCE831100844961 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +518,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ECommerceSportSwiftUi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ECommerceSportSwiftUi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +534,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.LotsAndHots.ECommerceSportSwiftUi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,11 +554,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ECommerceSportSwiftUi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ECommerceSportSwiftUi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +570,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.LotsAndHots.ECommerceSportSwiftUi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -582,6 +692,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8358A8B42BD3ECA7004BA1EC /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8358A8B52BD3ECA7004BA1EC /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8358A8B42BD3ECA7004BA1EC /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83367A892BC7998A00E9A614 /* Project object */;
 }

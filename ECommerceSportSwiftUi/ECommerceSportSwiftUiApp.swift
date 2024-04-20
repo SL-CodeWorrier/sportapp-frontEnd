@@ -11,7 +11,11 @@ import SwiftUI
 struct ECommerceSportSwiftUiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            NavigationView {
+                WelcomeView()
+            }
+            
         }
     }
 }
